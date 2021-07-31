@@ -1,0 +1,221 @@
+{
+  "HorizonLayout": [
+    {
+      "showLogo": true,
+      "image": "https://i.imgur.com/7ubk6wo.jpg",
+      "menuIcon": {
+        "name": "book_solid",
+        "fontFamily": "CupertinoIcons"
+      },
+      "name": "نبض القلم",
+      "showSearch": true,
+      "layout": "logo",
+      "showMenu": true
+    },
+    {
+      "layout": "bannerImage",
+      "isSlider": true,
+      "marginTop": 0.0,
+      "marginBottom": 0.0,
+      "marginLeft": 0.0,
+      "marginRight": 0.0,
+      "height": 0.2,
+      "fit": "cover",
+      "items": [
+        {
+          "padding": 15.0,
+          "image": "https://i.imgur.com/MO2MmVF.jpeg",
+          "category": "3"
+        },
+        {
+          "padding": 15.0,
+          "image": "https://i.imgur.com/J9sZuQ9.jpeg",
+          "category": null
+        }
+      ],
+      "autoPlay": false,
+      "design": "default",
+      "radius": 4.0,
+      "intervalTime": 3
+    },
+    {
+      "type": "icon",
+      "size": 1.1,
+      "wrap": false,
+      "radius": 0,
+      "line": false,
+      "items": [
+        {
+          "category": 3,
+          "colors": [
+            "#bf1f4f"
+          ],
+          "showText": true,
+          "originalColor": false,
+          "image": "https://i.imgur.com/K7IJOsF.png"
+        },
+        {
+          "image": "https://i.imgur.com/woQT4Vg.png",
+          "showText": false,
+          "category": 9,
+          "colors": [
+            "#3E6AB5",
+            "#3E6AB5"
+          ],
+          "originalColor": false
+        },
+        {
+          "category": 10,
+          "showText": false,
+          "image": "https://i.imgur.com/yYwF2qK.png",
+          "originalColor": false,
+          "colors": [
+            "#53A2CC",
+            "#53A2CC"
+          ]
+        },
+        {
+          "originalColor": false,
+          "showText": false,
+          "category": 11,
+          "colors": [
+            "#53688A",
+            "#53688A"
+          ],
+          "image": "https://i.imgur.com/VUuHaMH.png"
+        },
+        {
+          "showText": false,
+          "originalColor": false,
+          "image": "https://i.imgur.com/0D8tmw8.png",
+          "category": 12,
+          "colors": [
+            "#43506A",
+            "#43506A"
+          ]
+        },
+        {
+          "colors": [
+            "#12B58C",
+            "#12B58C"
+          ],
+          "image": "https://i.imgur.com/3eGy2z5.png",
+          "showText": false,
+          "category": 22,
+          "originalColor": false
+        }
+      ],
+      "layout": "category"
+    },
+    {
+      "name": "قصص ‏أطفال",
+      "layout": "threeColumn",
+      "isSnapping": false,
+      "category": "3"
+    },
+    {
+      "layout": "bannerImage",
+      "isSlider": false,
+      "marginTop": 0.0,
+      "marginBottom": 0.0,
+      "marginLeft": 0.0,
+      "marginRight": 0.0,
+      "height": 0.2,
+      "fit": "cover",
+      "items": [
+        {
+          "padding": 0.0,
+          "image": "https://i.imgur.com/yAsAjly.jpeg",
+          "url": "https://nabdualqalam.ae/tales%20of%20wardan.html"
+        }
+      ]
+    },
+    {
+      "name": "شاهدت مؤخرًا",
+      "layout": "recentView",
+      "isSnapping": false
+    }
+  ],
+  "Setting": {
+    "MainColor": "#D32F2F",
+    "ProductListLayout": "list",
+    "StickyHeader": false,
+    "ProductDetail": "simpleType",
+    "FontFamily": "Cairo"
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "assets/icons/tabs/icon-home.png",
+      "fontFamily": null,
+      "showChat": true,
+      "pos": 100
+    },
+    {
+      "pos": 200,
+      "layout": "category",
+      "categories": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "13",
+        "22"
+      ],
+      "categoryLayout": "card",
+      "icon": "assets/icons/tabs/icon-category.png",
+      "key": "meop48t0ny"
+    },
+    {
+      "icon": "assets/icons/tabs/icon-search.png",
+      "pos": 300,
+      "key": "gkz2fv2l90",
+      "layout": "search"
+    },
+    {
+      "pos": 400,
+      "layout": "cart",
+      "key": "nqpoq6qi6m",
+      "icon": "assets/icons/tabs/icon-cart2.png"
+    },
+    {
+      "settings": [
+        "wishlist",
+        "notifications",
+        "language",
+        "currencies",
+        "darkTheme",
+        "order",
+        "rating"
+      ],
+      "icon": "assets/icons/tabs/icon-user.png",
+      "layout": "profile",
+      "background": "https://i.imgur.com/bbTWiPd.jpg",
+      "pos": 500,
+      "key": "cagsuk72do"
+    }
+  ],
+  "Drawer": {
+    "logo": "https://i.imgur.com/4SfSelO.jpeg",
+    "items": [
+      {
+        "type": "home",
+        "show": true
+      },
+      {
+        "type": "blog",
+        "show": false
+      },
+      {
+        "show": true,
+        "type": "login"
+      },
+      {
+        "type": "category",
+        "show": true
+      }
+    ]
+  }
+}
